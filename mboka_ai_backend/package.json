@@ -1,0 +1,12 @@
+{
+    "name": "mboka-ai-vercel-functions",
+    "version": "1.0.0",
+    "description": "Vercel function to securely call the Gemini API.",
+    "main": "api/generate-poster.js",
+    "scripts": {
+      "start": "vercel dev"
+    },
+    "dependencies": {
+      "@google/genai": "^0.1.0" 
+    }
+  }
